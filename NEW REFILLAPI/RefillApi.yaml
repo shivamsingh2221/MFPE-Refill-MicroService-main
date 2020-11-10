@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: refillapirepos
-        image: samplecr1.azurecr.io/refillapirepos:latest
+        image: samplecr.azurecr.io/refillapirepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
